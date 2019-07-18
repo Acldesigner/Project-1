@@ -11,13 +11,16 @@ import UIKit
 class SubjectInput: UIViewController {
 
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var announcementsLabel: UILabel!
+   
+    @IBOutlet weak var subjectImage: UIImageView!
     
     var subjects: [String] = ["MATH", "ENGLISH", "HISTORY", "SCIENCE", "LANGUAGE"]
+    var images: [String] = ["MATH", "ENGLISH", "HISTORY", "SCIENCE", "LANGUAGE"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLabel.text = subjects[subjectNumber]
+        subjectImage.image = UIImage(named: images[subjectNumber])
         // Do any additional setup after loading the view.
     }
 
