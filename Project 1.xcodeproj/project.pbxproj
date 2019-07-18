@@ -13,6 +13,8 @@
 		CC2612C722DE43360079A83D /* Project_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC2612C522DE43360079A83D /* Project_1.xcdatamodeld */; };
 		CC2612C922DE43390079A83D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2612C822DE43390079A83D /* Assets.xcassets */; };
 		CC2612CC22DE43390079A83D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2612CA22DE43390079A83D /* LaunchScreen.storyboard */; };
+		CC2612D422DF8C630079A83D /* ClassesInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2612D322DF8C630079A83D /* ClassesInput.swift */; };
+		CC2612D822DF94600079A83D /* SubjectInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2612D722DF94600079A83D /* SubjectInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CC2612C822DE43390079A83D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC2612CB22DE43390079A83D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC2612CD22DE43390079A83D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2612D322DF8C630079A83D /* ClassesInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesInput.swift; sourceTree = "<group>"; };
+		CC2612D722DF94600079A83D /* SubjectInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CC2612CA22DE43390079A83D /* LaunchScreen.storyboard */,
 				CC2612CD22DE43390079A83D /* Info.plist */,
 				CC2612C522DE43360079A83D /* Project_1.xcdatamodeld */,
+				CC2612D322DF8C630079A83D /* ClassesInput.swift */,
+				CC2612D722DF94600079A83D /* SubjectInput.swift */,
 			);
 			path = "Project 1";
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC2612D822DF94600079A83D /* SubjectInput.swift in Sources */,
 				CC2612C722DE43360079A83D /* Project_1.xcdatamodeld in Sources */,
 				CC2612C122DE43360079A83D /* ViewController.swift in Sources */,
 				CC2612BF22DE43360079A83D /* AppDelegate.swift in Sources */,
+				CC2612D422DF8C630079A83D /* ClassesInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
